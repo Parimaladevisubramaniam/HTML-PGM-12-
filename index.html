@@ -1,33 +1,60 @@
-&lt;!DOCTYPE html&gt;
-&lt;html&gt;
-&lt;head&gt;
-&lt;title&gt;Psuedo-class selectors&lt;/title&gt;
-&lt;meta charset=&quot;utf-8&quot;&gt;
-&lt;link rel=&quot;stylesheet&quot; href=&quot;styles/normalize.css&quot;&gt;
-&lt;style&gt;
-body {
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pseudo-class selectors</title>
+    <meta charset="utf-8">
 
-font-family: Arial, Helvetica, sans-serif;
-font-size: 87.5%;
-margin: 2em; }
-a { font-weight: bold; }
-a:link { color: green; }
-a:hover, a:focus { color: fuchsia; }
+    <link rel="stylesheet" href="styles/normalize.css">
 
-main p:first-child { font-weight: bold; }
-main p:first-child::first-letter { font-size: 150%; }
-&lt;/style&gt;
-&lt;/head&gt;
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 87.5%;
+            margin: 2em;
+        }
 
-&lt;body&gt;
-&lt;main&gt;
-&lt;p&gt;Welcome to San Joaquin Valley Town Hall.&lt;/p&gt;
-&lt;p&gt;We have some fascinating speakers for you this season!&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;&lt;a href=&quot;speakers/toobin.html&quot;&gt;Jeffrey Toobin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;speakers/sorkin.html&quot;&gt;Andrew Ross Sorkin&lt;/a&gt;&lt;/li&gt;
-&lt;li&gt;&lt;a href=&quot;speakers/chua.html&quot;&gt;Amy Chua&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/main&gt;
-&lt;/body&gt;
-&lt;/html&gt;
+        /* TODO 1: Make all hyperlinks bold */
+        
+
+        /* TODO 2: Make unvisited links green */
+        
+
+        /* TODO 3: Make links fuchsia when mouse is over them
+           or when they receive keyboard focus */
+        
+
+        /* TODO 4: Make the first paragraph inside <main> bold */
+        
+
+        /* TODO 5: Make the first letter of the first paragraph
+           150% larger */
+        
+    </style>
+</head>
+
+<body>
+
+<main>
+
+    <p>Welcome to San Joaquin Valley Town Hall.</p>
+
+    <p>We have some fascinating speakers for you this season!</p>
+
+    <ul>
+        <li>
+            <a href="speakers/toobin.html">Jeffrey Toobin</a>
+        </li>
+
+        <li>
+            <a href="speakers/sorkin.html">Andrew Ross Sorkin</a>
+        </li>
+
+        <li>
+            <a href="speakers/chua.html">Amy Chua</a>
+        </li>
+    </ul>
+
+</main>
+
+</body>
+</html>
